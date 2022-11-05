@@ -34,6 +34,9 @@ Example:
 - Frequently encountered tags
 <br/>
 ![Frequently encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag1.png)
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/files/tag1.png?raw=true)
+
 ## Preprocessing :scissors:
 
 - removing words of length less than 4
