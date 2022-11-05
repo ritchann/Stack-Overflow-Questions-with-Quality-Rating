@@ -33,7 +33,7 @@ Example:
 
 - Frequently encountered tags
 <br/>
-![Frequently encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag1.png?raw=true)
+![Frequently encountered tags](files/tag1.png?raw=true)
 
 
 ## Preprocessing :scissors:
