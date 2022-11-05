@@ -55,28 +55,73 @@ Example:
 <br/>
 
 ## Models :package:
+<br/>
 
-### Search for similar names
-1. TF-IDF, K-means clustering, Levenshtein distance
+### Sequential model(Keras)
+<br/>
 
-2. Word2vec, MiniBatchKMeans, Levenshtein distance
+
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+_________________________________________________________________
+ embedding_2 (Embedding)     (None, 70, 300)           41575800  
+                                                                 
+ spatial_dropout1d_2 (Spatia  (None, 70, 300)          0         
+ lDropout1D)                                                     
+                                                                 
+ lstm_2 (LSTM)               (None, 100)               160400    
+                                                                 
+ dense_6 (Dense)             (None, 1024)              103424    
+                                                                 
+ dropout_4 (Dropout)         (None, 1024)              0         
+                                                                 
+ dense_7 (Dense)             (None, 1024)              1049600   
+                                                                 
+ dropout_5 (Dropout)         (None, 1024)              0         
+                                                                 
+ dense_8 (Dense)             (None, 3)                 3075      
+                                                                 
+ activation_2 (Activation)   (None, 3)                 0  
+ _________________________________________________________________
+<br/>
+Metrics:
+
+| batch_size  | optimizer  | accuracy |
+|----------------|:---------:|----------------:|
+| 512 | adam | 0.9 |
+| 32  | sgd | 0.85 |
+| 256  | adam | 0.9 |
 
 <br/>
+<br/>
+
+
+### fastText + SVM
+<br/>
+Metrics:
+
+| C | kernel  | accuracy |
+|----------------|:---------:|----------------:|
+| 1 | rbf | 0.88 |
+
+<br/>
+
+Metrics are based on a comparison of target.
 
 ## Performance :computer: 
 
 CPU: Intel i5-10210U CPU @ 1.60GHz
 
 
-To compare two values using the Levenshtein distance: 6550/1sec
+Speed of classification using sequential model: 1090/1 sec
 
-Speed of processing a request for similar names(Word2vec, MiniBatchKMeans, Levenshtein distance): 0.47sec
+Speed of classification using fastText + SVM: 266,6/1 sec
 
 <br/>
 
 ## Usage :information_desk_person:
 
-You can open tutorial.ipynb to demonstrate the work of the project. Before using the project, you need to install the project dependencies:
+Before using the project, you need to install the project dependencies:
 
 
 ```
@@ -86,20 +131,14 @@ pip install -r requirements.txt
 You can also test the project using the terminal.
 <br/>
 
-Levenshtein distance:
+Sequential model:
 ```
-python train.py --m ld --name1 "Name 1" --name2 "Name 1" 
-```
-<br/>
-
-TF-IDF, K-means clustering, Levenshtein distance:
-```
-python train.py --m tf --name1 "Name" 
+python train.py --m lstm 
 ```
 <br/>
 
-Word2vec, MiniBatchKMeans, Levenshtein distance:
+fastText + SVM:
 ```
-python train.py --m w2 --name1 "Name"
+python train.py --m svm 
 ```
 

@@ -1,5 +1,6 @@
 import os
 import random
+import argparse
 import numpy as np
 from sklearn.utils.fixes import sklearn
 from dataset import get_data
@@ -14,7 +15,14 @@ if __name__ == '__main__':
     sklearn.random.seed(SEED)
 
     train, test, target = get_data()
+    parser = argparse.ArgumentParser(description='Training script.')
+    parser.add_argument('--m', type=str, default='lstm', help='')
+    args = parser.parse_args()
 
-    # lstm_model(train, test, target)
+    if args.m == 'lstm':
+        lstm_model(train, test, target)
+    elif args.m == 'svm':
+        fast_text_svm(train, test, target)
 
-    fast_text_svm(train, test, target)
+
+
