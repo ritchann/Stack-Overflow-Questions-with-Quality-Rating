@@ -56,7 +56,7 @@ Example:
 
 ## Models :package:
 
-### Sequential model(Keras)
+### Sequential model(Keras) :white_circle:
 
 
 ____________________________________________________
