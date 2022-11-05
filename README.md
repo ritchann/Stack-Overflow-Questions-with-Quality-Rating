@@ -32,15 +32,12 @@ Example:
 ## EDA :chart_with_upwards_trend:
 
 - Frequently encountered tags
-<br/>
 ![Frequently encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag1.png)
 
 - Minimally encountered tags
-<br/>
 ![Minimally encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag2.png)
 
 - Distribution of targets
-<br/>
 ![Distribution of targets](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/target.png)
 
 
