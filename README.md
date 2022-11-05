@@ -33,15 +33,15 @@ Example:
 
 - Frequently encountered tags
 <br/>
-![Frequently encountered tags](/files/tag1.png)
+![Frequently encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag1.png)
 
 - Minimally encountered tags
 <br/>
-![Minimally encountered tags](/files/tag2.png?raw=true)
+![Minimally encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag2.png)
 
 - Distribution of targets
 <br/>
-![Distribution of targets](/files/target.png?raw=true)
+![Distribution of targets](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/target.png)
 
 
 ## Preprocessing :scissors:
