@@ -93,7 +93,7 @@ Metrics:
 <br/>
 
 
-### fastText + SVM
+### fastText + SVM :white_circle:
 Metrics:
 
 | C | kernel  | accuracy |
