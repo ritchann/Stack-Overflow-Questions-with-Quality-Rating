@@ -101,6 +101,8 @@ Metrics:
 
 Metrics are based on a comparison of target.
 
+<br/>
+
 ## Performance :computer: 
 
 CPU: Intel i5-10210U CPU @ 1.60GHz
@@ -121,7 +123,7 @@ Before using the project, you need to install the project dependencies:
 pip install -r requirements.txt 
 ```
 
-You can also test the project using the terminal.
+You can test the project using the terminal.
 <br/>
 
 Sequential model:
