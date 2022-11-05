@@ -29,6 +29,11 @@ Example:
 
 <br/>
 
+## EDA :chart_with_upwards_trend:
+
+- Frequently encountered tags
+<br/>
+![Frequently encountered tags](https://github.com/ritchann/stack-overflow-questions-quality/blob/main/files/tag1.png)
 ## Preprocessing :scissors:
 
 - removing words of length less than 4
