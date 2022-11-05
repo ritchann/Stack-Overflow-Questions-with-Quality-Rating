@@ -81,7 +81,7 @@ _________________________________________________________________
                                                                  
  activation_2 (Activation)   (None, 3)                 0  
  _________________________________________________________________
-<br/>
+
 Metrics:
 
 | batch_size  | optimizer  | accuracy |
@@ -94,7 +94,6 @@ Metrics:
 
 
 ### fastText + SVM
-<br/>
 Metrics:
 
 | C | kernel  | accuracy |
