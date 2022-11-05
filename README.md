@@ -33,7 +33,15 @@ Example:
 
 - Frequently encountered tags
 <br/>
-![Frequently encountered tags](files/tag1.png?raw=true)
+![Frequently encountered tags](/files/tag1.png?raw=true)
+
+- Minimally encountered tags
+<br/>
+![Minimally encountered tags](/files/tag2.png?raw=true)
+
+- Distribution of targets
+<br/>
+![Distribution of targets](/files/target.png?raw=true)
 
 
 ## Preprocessing :scissors:
