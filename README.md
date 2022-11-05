@@ -33,7 +33,7 @@ Example:
 
 - Frequently encountered tags
 <br/>
-![Frequently encountered tags](/files/tag1.png?raw=true)
+![Frequently encountered tags](/files/tag1.png)
 
 - Minimally encountered tags
 <br/>
